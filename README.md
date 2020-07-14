@@ -1,4 +1,5 @@
 # Урок 18
+## Адаптивная верстка на SASS
 ## Результат
 ### width: 1200px
 ![screenshots](src/img/width1200.png "width: 1200px")
