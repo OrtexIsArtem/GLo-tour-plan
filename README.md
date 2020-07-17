@@ -1,4 +1,4 @@
-# Урок 16
+<!-- # Урок 16
 ## Результат
 ![screenshots](src/img/lesson-16.png "Результат")
 
@@ -14,4 +14,14 @@
 ### width: 992px
 ![screenshots](src/img/width992.png "width: 992px")
 ### width: 768px
-![screenshots](src/img/width768.png "width: 768px")
+![screenshots](src/img/width768.png "width: 768px") -->
+
+# Урок 19
+## Практика: псевдоэлементы
+## Результат
+### width: 1200px
+![screenshots](src/img/lesson-19_width1200.png "width: 1200px")
+### width: 992px
+![screenshots](src/img/lesson-19_width992.png "width: 992px")
+### width: 768px
+![screenshots](src/img/lesson-19_width768.png "width: 768px")
