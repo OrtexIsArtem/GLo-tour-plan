@@ -10,11 +10,11 @@
 ## Адаптивная верстка на SASS
 ## Результат
 ### width: 1200px
-![screenshots](src/img/readme-img/width1200.png "width: 1200px")
+![screenshots](src/img/readme-img/lesson-18_width1200.png "width: 1200px")
 ### width: 992px
-![screenshots](src/img/readme-img/width992.png "width: 992px")
+![screenshots](src/img/readme-img/lesson-18_width992.png "width: 992px")
 ### width: 768px
-![screenshots](src/img/readme-img/width768.png "width: 768px")
+![screenshots](src/img/readme-img/lesson-18_width768.png "width: 768px")
 
 # Урок 19
 ## Практика: псевдоэлементы
