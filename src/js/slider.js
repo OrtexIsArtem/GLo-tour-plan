@@ -6,9 +6,9 @@ const mySwiper = new Swiper('.swiper-container', {
     nextEl: '.slider-button_next',
     prevEl: '.slider-button_prev',
   },
-  autoplay: {
-    delay: 2000
-  },
+  // autoplay: {
+  //   delay: 2000
+  // },
   keyboard: true,
   effect: 'coverflow',
   spaceBetween: -50
@@ -16,5 +16,5 @@ const mySwiper = new Swiper('.swiper-container', {
 })
 
 // остоновка и запуск autoplay при взаимодействии с мышкой
-slider.addEventListener('mouseover', () => mySwiper.autoplay.stop())
-slider.addEventListener('mouseout', () => mySwiper.autoplay.start())
+// slider.addEventListener('mouseover', () => mySwiper.autoplay.stop())
+// slider.addEventListener('mouseout', () => mySwiper.autoplay.start())
