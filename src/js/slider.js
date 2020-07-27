@@ -1,17 +1,17 @@
-const slider = document.querySelector('.swiper-container')
-const mySwiper = new Swiper('.swiper-container', {
+const slider = document.querySelector('.hotel-slider')
+const mySwiper = new Swiper('.hotel-slider', {
   loop: true,
 
   navigation: {
-    nextEl: '.slider-button_next',
-    prevEl: '.slider-button_prev',
+    nextEl: '.hotel-slider__button_next',
+    prevEl: '.hotel-slider__button_prev',
   },
   // autoplay: {
   //   delay: 2000
   // },
   keyboard: true,
   effect: 'coverflow',
-  spaceBetween: -50
+  spaceBetween: 0
 
 })
 

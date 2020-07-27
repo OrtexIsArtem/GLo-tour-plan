@@ -18,7 +18,7 @@ function style() {
 
 function serve() { 
     init({server: {baseDir: "./src/"}})
-    watch('./src/sass/*.sass', style)
+    watch('./src/sass/**/*.sass', style)
     watch('./src/*.html').on('change', reload)
 }
 
