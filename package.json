@@ -1,0 +1,29 @@
+{
+  "name": "GLo-course-tour-plan",
+  "version": "1.0.0",
+  "description": "![screenshots](src/img/readme-img/lesson-21_w1200.jpg \"width: 1200px\")\r ### width: 992px\r ![screenshots](src/img/readme-img/lesson-21_w992.jpg \"width: 992px\")\r ### width: 768px\r ![screenshots](src/img/readme-img/lesson-21_w768.jpg \"width: 768px\")\r ### width: 320px\r ![screenshots](src/img/readme-img/lesson-21_w320.jpg \"width: 320px\")\r ### Усложненное. Yandex map API \r ![screenshots](src/img/readme-img/lesson-21_hard.jpg \"Настройка API\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artem-Pronenko/GLo-course-tour-plan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artem-Pronenko/GLo-course-tour-plan/issues"
+  },
+  "homepage": "https://github.com/Artem-Pronenko/GLo-course-tour-plan#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {}
+}
