@@ -1,5 +1,5 @@
 const slider = document.querySelector('.hotel-slider')
-const mySwiper = new Swiper('.hotel-slider', {
+const hotelSlider = new Swiper('.hotel-slider', {
   loop: true,
 
   navigation: {
@@ -15,6 +15,22 @@ const mySwiper = new Swiper('.hotel-slider', {
 
 })
 
+
 // остоновка и запуск autoplay при взаимодействии с мышкой
 // slider.addEventListener('mouseover', () => mySwiper.autoplay.stop())
 // slider.addEventListener('mouseout', () => mySwiper.autoplay.start())
+
+const reviewsSlider = new Swiper('.reviews-slider', {
+  loop: true,
+
+  navigation: {
+    nextEl: '.reviews-slider__button_next',
+    prevEl: '.reviews-slider__button_prev',
+  },
+  // autoplay: {
+  //   delay: 2000
+  // },
+  keyboard: true,
+  spaceBetween: 0
+
+})
