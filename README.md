@@ -13,4 +13,4 @@
 Подключить:
 `<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
  <script src="js/parallax.min.js"></script>`
-Для секции "newsletter" добавить 2 атрибута `data-parallax="scroll" data-image-src="path/to/picture"`
+Для секции "newsletter" добавить 2 атрибута <data-parallax="scroll" data-image-src="path/to/picture">
