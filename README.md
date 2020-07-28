@@ -11,6 +11,11 @@
 ![screenshots](src/img/readme-img/lesson-22_w320.jpg "width: 320px")
 ### Усложненное. Параллакс-эффект
 Подключить:
-`<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
- <script src="js/parallax.min.js"></script>`
-Для секции "newsletter" добавить 2 атрибута `data-parallax="scroll" data-image-src="path/to/picture"`
+```html
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/parallax.min.js"></script>
+```
+Для секции "newsletter" добавить 2 атрибута 
+```html
+data-parallax="scroll" data-image-src="path/to/picture"
+```
