@@ -22,6 +22,25 @@ button {
   cursor: pointer;
 }
 
+.title {
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  padding: 7px 22px;
+  border: none;
+  background-color: #EC1F46;
+  border-radius: 4px;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -1165,6 +1184,142 @@ template {
   border-radius: 4px;
 }
 
+.other__title {
+  margin-bottom: 65px;
+}
+
+.other__section {
+  margin-bottom: 70px;
+}
+
+.other-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.other-packages {
+  display: grid;
+  grid-template-rows: 250px minmax(250px, -webkit-max-content);
+  grid-template-rows: 250px minmax(250px, max-content);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.other-packages_main {
+  display: grid;
+  grid-template-rows: minmax(500px, -webkit-max-content);
+  grid-template-rows: minmax(500px, max-content);
+  grid-template-columns: repeat(2, 1fr);
+  grid-column: 1 / 3;
+}
+
+.other-packages_main > .packages-img {
+  width: 366px;
+  height: 500px;
+}
+
+.packages-img > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.packages-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.packages-list__item {
+  margin-bottom: 11px;
+}
+
+.packages-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+}
+
+.packages-item__img {
+  margin-right: 17px;
+}
+
+.packages-item__text {
+  font-size: 12px;
+}
+
+.packages-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.48px;
+  font-style: normal;
+}
+
+.packages-info {
+  height: 100%;
+  padding: 25px 20px 24px 32px;
+  background-color: #0A223D;
+  color: #ffffff;
+}
+
+.packages-info__stars {
+  margin-bottom: 8px;
+}
+
+.packages-info_main {
+  padding: 46px 21px 30px 43px;
+}
+
+.packages-info__title {
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+
+.packages-info__text {
+  margin-top: 0;
+  margin-bottom: 36px;
+}
+
+.packages-info__list {
+  margin-bottom: 37px;
+}
+
+.packages-price__old {
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.packages-price__new {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.packages-button {
+  font-size: 14px;
+  padding: 11px 26px;
+}
+
+.packages-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -1181,6 +1336,9 @@ template {
   .card {
     width: 230px;
     height: 230px;
+  }
+  .packages-info_main {
+    padding: 17px 10px 10px 15px;
   }
 }
 
@@ -1249,6 +1407,9 @@ template {
   .card {
     width: 340px;
     height: 255px;
+  }
+  .other-grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -1386,6 +1547,31 @@ template {
   }
   .card {
     width: 48%;
+  }
+  .other-grid {
+    grid-template-columns: 1fr;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
+  }
+  .other-packages_main {
+    grid-template-columns: auto;
+    grid-column: auto;
+    grid-template-rows: minmax(250px, -webkit-max-content);
+    grid-template-rows: minmax(250px, max-content);
+  }
+  .other-packages_main > .packages-img {
+    width: auto;
+    height: 250px;
+  }
+  .packages-info_main {
+    padding: 25px 20px 24px 32px;
+  }
+  .packages-info__text {
+    display: none;
+  }
+  .packages-info__stars {
+    display: none;
   }
 }
 

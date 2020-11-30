@@ -12,6 +12,8 @@
   .card
     width: 230px
     height: 230px
+  .packages-info_main
+    padding: 17px 10px 10px 15px
 
 @media (max-width: 992px)
   .container, .newsletter-wrapper
@@ -65,6 +67,9 @@
   .card
     width: 340px
     height: 255px
+
+  .other-grid
+    grid-template-columns: 1fr 1fr
 
 @media (max-width: 768px)
   .container
@@ -159,6 +164,30 @@
     padding-bottom: 60px
   .card
     width: 48%
+
+  .other
+    &-grid
+      grid-template-columns: 1fr
+      column-gap: 30px
+
+    &-packages_main
+      grid-template-columns: auto
+      grid-column: auto
+      grid-template-rows: minmax(250px, max-content)
+
+      & > .packages-img
+        width: auto
+        height: 250px
+  .packages-info
+    &_main
+      padding: 25px 20px 24px 32px
+
+    &__text
+      display: none
+
+    &__stars
+      display: none
+
 
 @media (max-width: 576px)
   .logo
